@@ -15,8 +15,6 @@ const ExcalidrawWithClientOnly = dynamic(
 export default function Page() {
   return (
     <>
-      <a href="/excalidraw-in-pages">Switch to Pages router</a>
-      <h1 className="page-title">App Router</h1>
       <Script id="load-env-variables" strategy="beforeInteractive">
         {`window["EXCALIDRAW_ASSET_PATH"] = window.origin;`}
       </Script>
